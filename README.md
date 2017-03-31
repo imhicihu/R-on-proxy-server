@@ -14,7 +14,7 @@ This README would normally document whatever steps are necessary to get your app
 * Configuration
 * Dependencies
     * [R](https://cran.r-project.org/bin/)
-    * [Microsoft R](https://mran.microsoft.com/download/) 
+    * [Microsoft R](https://mran.microsoft.com/download/) *Note:* Microsoft R Open can work side-by-side with any other version of CRAN R.
 * Database configuration
 * How to run tests
 * Deployment instructions
