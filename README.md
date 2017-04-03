@@ -25,7 +25,8 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * Run RStudio
     * In the Console run this script:
     * `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
-    * Replace `username` with your username; `password` with your password; `19X.16X.X.X` -in my case- with this IP address `192.168.4.1` and `3XXX` with this port: `3128`.
+    * where `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` -in my case- with this IP address `192.168.4.1` and `3XXX` -in my case- with this port: `3128`.
+    * Inside RStudio, click on the `Tools` menu, then `Install packages`
     * Download your [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) as needed.
     * Or download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
 
