@@ -4,9 +4,8 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Run R under a proxy server
+* Version 1.0
 
 ### How do I get set up? ###
 
@@ -16,13 +15,13 @@ This README would normally document whatever steps are necessary to get your app
 * Configuration
 * Dependencies
     * [R](https://cran.r-project.org/bin/)
-    * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) 
-* Database configuration
-* How to run tests
+    * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
+* How to run tests & deployment instructions
+    * Run R
     * Run RStudio
-    * Run Console
-* Deployment instructions
-    * Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section
+    * Run Console. Inside run script provided.
+    * Download [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) needed.
+    * Or download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section.
 
 ### Contribution guidelines ###
 
