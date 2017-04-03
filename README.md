@@ -29,6 +29,9 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * Inside RStudio, click on the `Tools` menu, then `Install packages`. See below, installing the `archivist` package and all the dependencies involved.
 ![proxy.jpg](https://bitbucket.org/repo/4pKrXRd/images/623860906-proxy.jpg)
     * Once you download your [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html), they will appear automatically in both software: RStudio and R.
+    * See below, the package `archivist` version 2.1.2 recognized by both software.
+![archivist-rstudio.jpg](https://bitbucket.org/repo/4pKrXRd/images/3761449446-archivist-rstudio.jpg)
+![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
 
 ### Contribution guidelines ###
 
