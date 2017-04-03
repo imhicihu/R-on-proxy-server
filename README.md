@@ -20,6 +20,7 @@ This README would normally document whatever steps are necessary to get your app
 * Database configuration
 * How to run tests
 * Deployment instructions
+    * Download the checklist on the Downloads section
 
 ### Contribution guidelines ###
 
