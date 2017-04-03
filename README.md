@@ -14,13 +14,13 @@ This README would normally document whatever steps are necessary to get your app
     * Run it
     * Run script
 * Software needed:
-    * [R](https://cran.r-project.org/bin/)
-    * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
+    * [R](https://cran.r-project.org/bin/) (Windows, Mac and Linux)
+    * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) (Windows, Mac and Linux). Verify compatibilities between R and RStudio.
 * Procedures:
     * Install [R](https://cran.r-project.org/bin/)
     * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
     * Gather information about the configuration of your proxy server: IP address, port, username, password
-* How to run tests & deployment instructions
+* Deployment instructions:
     * Run RStudio
     * Run Console. Inside run script provided.
     * Download [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) needed.
