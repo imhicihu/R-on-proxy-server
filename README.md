@@ -4,7 +4,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 
 ### What is this repository for? ###
 
-* Execute R below a proxy server
+* Execute R on a proxy server
 * Version 1.0.1
 
 ### How do I get set up? ###
