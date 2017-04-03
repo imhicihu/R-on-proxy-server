@@ -32,9 +32,9 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 
 ### Contribution guidelines ###
 
-    * The less steps, the better
-    * Plain english
+* The less steps, the better
+* Plain english
 
 ### Releases ###
 
-    * Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
+* Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
