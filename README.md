@@ -9,19 +9,18 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How do I get set up? ###
 
-* Summary of set up
+* Summary of setup:
     * Install software
     * Run it
     * Run script
-* Configuration
-    * Install [R](https://cran.r-project.org/bin/)
-    * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
-    * Gather information about the configuration of your proxy server: IP address, port, username, password.
-* Dependencies
+* Software needed:
     * [R](https://cran.r-project.org/bin/)
     * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
+* Procedures:
+    * Install [R](https://cran.r-project.org/bin/)
+    * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
+    * Gather information about the configuration of your proxy server: IP address, port, username, password
 * How to run tests & deployment instructions
-    * Run R
     * Run RStudio
     * Run Console. Inside run script provided.
     * Download [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) needed.
@@ -32,8 +31,3 @@ This README would normally document whatever steps are necessary to get your app
 * Writing tests
 * Code review
 * Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
