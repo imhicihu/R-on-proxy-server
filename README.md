@@ -1,10 +1,10 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This README shows the procedures to run R (and RStudio) inside a proxy server (usually in universities and academics environments). 
 
 ### What is this repository for? ###
 
-* Run R under a proxy server
+* Execute R below a proxy server
 * Version 1.0.1
 
 ### How do I get set up? ###
@@ -25,9 +25,9 @@ This README would normally document whatever steps are necessary to get your app
     * Run RStudio
     * In the Console run this script:
     * `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
-    * Replace 
-    * Download [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) needed.
-    * Or download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section.
+    * Replace `username` with your username; `password` with your password; `19X.16X.X.X` -in my case- with this IP address `192.168.4.1` and `3XXX` with this port: `3128`.
+    * Download your [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) as needed.
+    * Or download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
 
 ### Contribution guidelines ###
 
