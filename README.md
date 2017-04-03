@@ -10,9 +10,13 @@ This README would normally document whatever steps are necessary to get your app
 ### How do I get set up? ###
 
 * Summary of set up
-    * Install R
-    * Gather information about the configuration of your proxy server: *i.e.* IP address, port, username & password.
+    * Install software
+    * Run it
+    * Run script
 * Configuration
+    * Install [R](https://cran.r-project.org/bin/)
+    * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
+    * Gather information about the configuration of your proxy server: IP address, port, username, password.
 * Dependencies
     * [R](https://cran.r-project.org/bin/)
     * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
