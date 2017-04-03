@@ -20,7 +20,7 @@ This README would normally document whatever steps are necessary to get your app
 * Database configuration
 * How to run tests
 * Deployment instructions
-    * Download the checklist on the Downloads section
+    * Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section
 
 ### Contribution guidelines ###
 
