@@ -5,7 +5,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ### What is this repository for? ###
 
 * Execute R on a proxy server
-* Version 1.0.1
+* Tested in MacOSX & Windows environment
 
 ### How do I get set up? ###
 
@@ -16,7 +16,10 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 * Software needed:
     * [R](https://cran.r-project.org/bin/) (Windows, Mac and Linux)
     * [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) (Windows, Mac and Linux). 
-    * Verify compatibilities between R and RStudio.
+    * Verify compatibilities between R and RStudio. Update to the latest versions to minimize incompatibilites.
+* Software version (tests):
+    * RStudio (Mac OSX version): 1.0.136
+    * R (Mac OSX version): 3.3.3 GUI 1.69 Mavericks build (7328)
 * Procedures:
     * Install [R](https://cran.r-project.org/bin/)
     * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
