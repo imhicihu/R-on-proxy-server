@@ -41,8 +41,18 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
 
 ### Windows environment ###
+* Deployment:
     * Run R
     * In the Console run this script:
+    * `file.edit('~/.Renviron')`
+    * Automatically it will bring a new window. Introduce this statements:
+    * `options(internet.info = 0)`
+    * `http_proxy = http:// username:password@19X.16X.X.X:3XXX`
+    * `http_proxy_user = username:password`
+    * `https_proxy = https:// username:password0@19X.16X.X.X:3XXX`
+    * `https_proxy_user = username:password`
+    * `ftp_proxy = username:password@19X.16X.X.X:3XXX`
+    * It should be pointed that `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` -in my case- with this IP address `192.168.4.1` and `3XXX` -in my case- with this port: `3128`.
 ### Contribution guidelines ###
 
 * The less steps, the better
