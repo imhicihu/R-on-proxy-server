@@ -53,6 +53,10 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * `https_proxy_user = username:password`
     * `ftp_proxy = username:password@19X.16X.X.X:3XXX`
     * It should be pointed that `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` -in my case- with this IP address `192.168.4.1` and `3XXX` -in my case- with this port: `3128`.
+    * Restart R
+    * In the console, introduce this statement
+    * `install.packages("XXXXXXX",method="libcurl")`
+    * Replace `"XXXXXXX"` with the name of the package you need.
 ### Contribution guidelines ###
 
 * The less steps, the better
