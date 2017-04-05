@@ -5,7 +5,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ### What is this repository for? ###
 
 * Execute R on a proxy server
-* Tested in MacOSX & Windows environment
+* Tested in MacOSX environment
 
 ### How do I get set up? ###
 
@@ -24,7 +24,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * Install [R](https://cran.r-project.org/bin/)
     * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
     * Gather information about the configuration of your proxy server: IP address, port, username, password
-* Deployment instructions:
+* Deployment:
     * Run RStudio
     * In the Console run this script:
     * `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
