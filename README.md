@@ -20,10 +20,14 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 * Software version (tests):
     * RStudio (Mac OSX version): 1.0.136
     * R (Mac OSX version): 3.3.3 GUI 1.69 Mavericks build (7328)
+    * R (Windows version):
 * Procedures:
     * Install [R](https://cran.r-project.org/bin/)
     * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
     * Gather information about the configuration of your proxy server: IP address, port, username, password
+
+### Mac OSX environment ###
+
 * Deployment:
     * Run RStudio
     * In the Console run this script:
@@ -36,6 +40,9 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ![archivist-rstudio.jpg](https://bitbucket.org/repo/4pKrXRd/images/3761449446-archivist-rstudio.jpg)
 ![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
 
+### Windows environment ###
+    * Run R
+    * In the Console run this script:
 ### Contribution guidelines ###
 
 * The less steps, the better
