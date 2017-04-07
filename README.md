@@ -25,7 +25,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * Install [R](https://cran.r-project.org/bin/)
     * Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
     * Gather information about the configuration of your proxy server: IP address, port, username, password
-
+-----------------------
 ### Mac OSX environment ###
 
 * Deployment:
@@ -40,6 +40,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ![archivist-rstudio.jpg](https://bitbucket.org/repo/4pKrXRd/images/3761449446-archivist-rstudio.jpg)
 ![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
 
+-----------------------
 ### Windows environment ###
 * Deployment:
     * Run R
