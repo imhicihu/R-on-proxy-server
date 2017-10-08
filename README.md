@@ -1,4 +1,4 @@
-# README #
+# Rationale #
 
 This README shows the procedures to run R (and RStudio) inside a proxy server (usually in universities and academics environments). 
 
