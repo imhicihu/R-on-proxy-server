@@ -61,7 +61,8 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * In the console, introduce this statement
         - `install.packages("XXXXXXX",method="libcurl")`
     * Replace `"XXXXXXX"` with the [name of the package](https://cran.r-project.org/web/packages/available_packages_by_name.html) you need.
-![archivist.jpg](https://bitbucket.org/repo/4pKrXRd/images/4115872337-archivist.jpg)
+
+![archivist.png](https://bitbucket.org/repo/4pKrXRd/images/377615290-archivist.png)
 
 -----------------------
 ### Contribution guidelines ###
