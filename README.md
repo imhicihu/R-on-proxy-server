@@ -34,11 +34,16 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     * `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
     * where `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` *i.e.* with this IP address `192.168.4.1` and `3XXX` *i.e.* with this port: `3128`
     * Inside RStudio, click on the `Tools` menu, then `Install packages`. See below, installing the `archivist` package and all the dependencies involved.
-![proxy.jpg](https://bitbucket.org/repo/4pKrXRd/images/623860906-proxy.jpg)
+
+![proxy.png](https://bitbucket.org/repo/4pKrXRd/images/4285276611-proxy.png)
+
     * Once you download your [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html), they will appear automatically in both software: RStudio and R.
     * See below, the package `archivist` version 2.1.2 recognized.
+
 ![archivist-rstudio.jpg](https://bitbucket.org/repo/4pKrXRd/images/3761449446-archivist-rstudio.jpg)
+
 ![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
+
 
 -----------------------
 ### Windows environment ###
