@@ -40,7 +40,6 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
     - See below, the package `archivist` version 2.1.2 recognized.
 
 ![archivist-rstudio.png](https://bitbucket.org/repo/4pKrXRd/images/1476422623-archivist-rstudio.png)
-
 ![archivist-R.png](https://bitbucket.org/repo/4pKrXRd/images/3011197732-archivist-R.png)
 
 -----------------------
