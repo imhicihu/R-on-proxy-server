@@ -24,7 +24,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 * Procedures:
     - Install [R](https://cran.r-project.org/bin/)
     - Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
-    - Gather information about the configuration of your proxy server: IP address, port, username, password
+    - Previously, gather information about the configuration of your proxy server: IP address, port, username, password
 
 -----------------------
 ### Mac OSX environment ###
@@ -32,7 +32,7 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 * Deployment:
     - Run RStudio
     - In the Console run this script:
-    - `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
+        - `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
     - where `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` *i.e.* with this IP address `192.168.4.1` and `3XXX` *i.e.* with this port: `3128`
     - Inside RStudio, click on the `Tools` menu, then `Install packages`. See below, installing the `archivist` package and all the dependencies involved.
 ![proxy.png](https://bitbucket.org/repo/4pKrXRd/images/4285276611-proxy.png)
@@ -41,28 +41,29 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 
 ![archivist-rstudio.png](https://bitbucket.org/repo/4pKrXRd/images/1476422623-archivist-rstudio.png)
 
-![archivist-R.jpg](https://bitbucket.org/repo/4pKrXRd/images/871921475-archivist-R.jpg)
-
+![archivist-R.png](https://bitbucket.org/repo/4pKrXRd/images/3011197732-archivist-R.png)
 
 -----------------------
 ### Windows environment ###
 * Deployment:
-    * Run R
-    * In the Console run this script:
-    * `file.edit('~/.Renviron')`
-    * Automatically it will bring a new window. Introduce this statements:
-    * `options(internet.info = 0)`
-    * `http_proxy = http:// username:password@19X.16X.X.X:3XXX`
-    * `http_proxy_user = username:password`
-    * `https_proxy = https:// username:password0@19X.16X.X.X:3XXX`
-    * `https_proxy_user = username:password`
-    * `ftp_proxy = username:password@19X.16X.X.X:3XXX`
+    - Run R
+    - In the Console run this script:
+        - `file.edit('~/.Renviron')`
+    - Automatically it will bring a new window. Introduce this statements:
+        - `options(internet.info = 0)`
+        - `http_proxy = http:// username:password@19X.16X.X.X:3XXX`
+        - `http_proxy_user = username:password`
+        - `https_proxy = https:// username:password0@19X.16X.X.X:3XXX`
+        - `https_proxy_user = username:password`
+        - `ftp_proxy = username:password@19X.16X.X.X:3XXX`
     * It should be pointed that `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` *i.e.* with this IP address `192.168.4.1` and `3XXX` *i.e.* with this port: `3128`
     * Restart R
     * In the console, introduce this statement
-    * `install.packages("XXXXXXX",method="libcurl")`
+        - `install.packages("XXXXXXX",method="libcurl")`
     * Replace `"XXXXXXX"` with the [name of the package](https://cran.r-project.org/web/packages/available_packages_by_name.html) you need.
 ![archivist.jpg](https://bitbucket.org/repo/4pKrXRd/images/4115872337-archivist.jpg)
+
+-----------------------
 ### Contribution guidelines ###
 
 * The less steps, the better
@@ -72,6 +73,6 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 
 * Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
 
-###Copyright###
+### Copyright ###
 ![88x31.png](https://bitbucket.org/repo/4pKrXRd/images/3902704043-88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 2.0 Generic License](http://creativecommons.org/licenses/by-sa/2.0/).
