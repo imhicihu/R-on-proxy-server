@@ -81,7 +81,6 @@ This README shows the procedures to run R (and RStudio) inside a proxy server (u
 ![88x31.png](https://bitbucket.org/repo/4pKrXRd/images/3902704043-88x31.png)
 This work is licensed under a [Creative Commons Attribution-ShareAlike 2.0 Generic License](http://creativecommons.org/licenses/by-sa/2.0/).
 
-
 ### Legal ###
 
 * All trademarks are the property of their respective owners.
