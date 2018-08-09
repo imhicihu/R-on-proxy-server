@@ -1,6 +1,7 @@
 # Rationale #
 
-This README shows the procedures to run R (and RStudio) inside a proxy server (usually in universities and academics environments). 
+* This README shows the procedures to run R (and RStudio) inside a proxy server (usually in universities and academics environments).
+* This guide is a living document that will grow and adapt over time.
 
 ### What is this repository for? ###
 
