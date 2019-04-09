@@ -5,6 +5,14 @@
 * This README shows the procedures to run R (and RStudio) inside a proxy server (usually in universities and academics environments).
 * This guide is a living document that will grow and adapt over time.
 
+### Issues ###
+
+* Check them on [here](https://bitbucket.org/imhicihu/r-on-proxy-server/issues?status=new&status=open)
+
+### Changelog ###
+
+* Please check the [Commits](https://bitbucket.org/imhicihu/r-on-proxy-server/commits/) section for the current status
+
 ### What is this repository for? ###
 
 * Execute R on a proxy server
