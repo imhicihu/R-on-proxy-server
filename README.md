@@ -1,4 +1,5 @@
-![stability-wip](https://bitbucket.org/repo/ekyaeEE/images/3278295154-status_archived.png)
+![stability-wip](https://bitbucket.org/repo/ekyaeEE/images/3847436881-internal_use_stable.png)
+![status-archived](https://bitbucket.org/repo/ekyaeEE/images/3278295154-status_archived.png)
 ![issues-closed](https://bitbucket.org/repo/ekyaeEE/images/1555006384-issues_closed.png)
 
 # Rationale #
