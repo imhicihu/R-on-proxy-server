@@ -13,29 +13,32 @@
     - [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop) 
     - Update to the latest version of R and RStudio to minimize incompatibilities.
 * Software version (tests):
-    - RStudio (Mac OSX version): 1.0.136
-    - R (Mac OSX version): 3.3.3 GUI 1.69 Mavericks build (7328)
+    - R (Windows version): 3.3.3 64 bits
 * Procedures:
     - Install [R](https://cran.r-project.org/bin/)
     - Install [RStudio Desktop](https://www.rstudio.com/products/rstudio/#Desktop)
     - Previously, gather information about the configuration of your proxy server: `IP address`, `port`, `username`, `password`
 
 -----------------------
-### Mac OSX environment ###
-
+### Windows environment ###
 * Deployment:
-    - Run RStudio
+    - Run R
     - In the Console run this script:
-        - `Sys.setenv(http_proxy="http://username:password@19X.16X.X.X:3XXX/")`
-    - where `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` *i.e.* with this IP address `192.168.4.1` and `3XXX` *i.e.* with this port: `3128`
-    - Inside RStudio, click on the `Tools` menu, then `Install packages`. See below, installing the `archivist` package and all the dependencies involved.
-![proxy.png](images/4285276611-proxy.png)
-    - Once you download your [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html), they will appear automatically in both software: RStudio and R.
-    - See below, the package `archivist` version 2.1.2 recognized.
+        - `file.edit('~/.Renviron')`
+    - Automatically it will bring a new window. Introduce this statements:
+        - `options(internet.info = 0)`
+        - `http_proxy = http:// username:password@19X.16X.X.X:3XXX`
+        - `http_proxy_user = username:password`
+        - `https_proxy = https:// username:password0@19X.16X.X.X:3XXX`
+        - `https_proxy_user = username:password`
+        - `ftp_proxy = username:password@19X.16X.X.X:3XXX`
+    * It should be pointed that `username` must be replaced with your username; `password` with your password; `19X.16X.X.X` *i.e.* with this IP address `192.168.4.1` and `3XXX` *i.e.* with this port: `3128`
+    * Restart R
+    * In the console, introduce this statement
+        - `install.packages("XXXXXXX",method="libcurl")`
+    * Replace `"XXXXXXX"` with the [name of the package](https://cran.r-project.org/web/packages/available_packages_by_name.html) you need.
 
-![archivist-rstudio.png](images/1476422623-archivist-rstudio.png)
-![archivist-R.png](images/3011197732-archivist-R.png)
-
+![](images/377615290-archivist.png)
 
 
 ### Copyright ###

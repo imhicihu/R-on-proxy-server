@@ -76,7 +76,7 @@
 
 ### Releases ###
 
-* Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) folder.
+* Download the checklist on the [Downloads](/downloads) folder.
 
 ### Changelog ###
 
