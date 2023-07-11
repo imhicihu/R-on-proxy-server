@@ -88,7 +88,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 2.0 Gener
 
 ### Code of Conduct
 
-* Please, check our [Code of Conduct](code_of_conduct.md)
+* Please, check our [Code of Conduct](https://bitbucket.org/imhicihu/r-on-proxy-server/src/master/code_of_conduct.md)
 
 ### Legal ###
 
