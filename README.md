@@ -76,11 +76,11 @@
 
 ### Releases ###
 
-* Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) section (soon to be released).
+* Download the checklist on the [Downloads](https://bitbucket.org/imhicihu/r-on-proxy-server/downloads/) folder.
 
 ### Changelog ###
 
-* Please check the [Commits](https://bitbucket.org/imhicihu/r-on-proxy-server/commits/) section for the current status
+* Please check the [Commits](https://github.com/imhicihu/R-on-proxy-server/commits/master) section for the current status
 
 ### Copyright ###
 ![88x31.png](images/3902704043-88x31.png)
